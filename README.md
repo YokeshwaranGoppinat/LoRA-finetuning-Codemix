@@ -1,6 +1,6 @@
 # LoRA Fine-Tuning for Code-Mixed Sentiment Classification
 
-This repository contains a clean, admissions-ready implementation of **LoRA (Low-Rank Adaptation)** fine-tuning using HuggingFace PEFT for **code-mixed sentiment classification** in Tamil–English and Hindi–English.
+This repository contains a clean implementation of **LoRA (Low-Rank Adaptation)** fine-tuning using HuggingFace PEFT for **code-mixed sentiment classification** in Tamil–English and Hindi–English.
 
 The goal is to show how **parameter-efficient fine-tuning** can retain almost all of a multilingual teacher model’s performance while training **<1% of the parameters**.
 
