@@ -61,7 +61,9 @@ The goal is to show how **parameter-efficient fine-tuning** can retain almost al
   - Tamil–English code-mixed dataset
   - Hindi–English code-mixed dataset
 - **Approach**:
-  - Start from a fully fine-tuned teacher model, using the same architecture as in our [Knowledge Distillation (CodeMix) project] https://github.com/YokeshwaranGoppinat/Knowledge-distillation-Codemix).
+  - Start from a fully fine-tuned teacher (same architecture as the 
+[KD project](https://github.com/YokeshwaranGoppinat/Knowledge-distillation-Codemix)).
+
   - Freeze all base model parameters
   - Attach LoRA adapters to selected Transformer modules
   - Only train the low-rank adapter parameters
