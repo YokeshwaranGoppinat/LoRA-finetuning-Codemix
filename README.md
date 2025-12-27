@@ -76,7 +76,7 @@ and study how they impact accuracy, macro-F1, and parameter count.
 
 ---
 
-## 📊 Results (Aligned with SOP)
+## 📊 Results
 
 Using a multilingual DistilBERT teacher and LoRA on top:
 
